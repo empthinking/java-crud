@@ -5,7 +5,7 @@ public class User {
     String name;
     String cpf;
     String email;
-    String tel;
+    String number;
 
     public int getId() {
         return id;
@@ -23,8 +23,8 @@ public class User {
         return name;
     }
 
-    public String getTel() {
-        return tel;
+    public String getNumber() {
+        return number;
     }
 
     public void setCpf(String cpf) {
@@ -43,7 +43,7 @@ public class User {
         this.name = name;
     }
 
-    public void setTel(String tel) {
-        this.tel = tel;
+    public void setNumber(String number) {
+        this.number = number;
     }
 }

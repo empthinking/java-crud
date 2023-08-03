@@ -18,11 +18,11 @@ public class ConnectionFactory {
         return DriverManager.getConnection(url, user, password);
     }
 
-    public ConnectionFactory(String ip, String port, String db, String user, String password ) {
-        this.ip = ip;
-        this.port = port;
-        this.db = db;
-        this.user = user;
-        this.password = password;
+    public ConnectionFactory() {
+        ip = "localhost";
+        port = "3305";
+        db = "JAVACRUD";
+        user = "root";
+        password = "";
     }
 }
